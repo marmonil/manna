@@ -1,0 +1,648 @@
+/* * {
+  box-sizing: border-box;
+  
+}
+/* main css */
+.first-container {
+  height: 40px;
+  background-color: #363537;
+}
+.header-text {
+  color: white;
+  font-size: 11px;
+  display: inline-block;
+  font-weight: bolder;
+}
+.fas {
+  color: white;
+  font-size: 13px;
+  margin-right: 5px;
+  margin-left: 20px;
+}
+.first-container {
+  height: 40px;
+  background-color: #363537;
+}
+
+
+/* md and lg divice (824px up) */
+@media only screen and (min-width: 824px) {
+  .header-btn {
+    background-color: red;
+    border: none;
+    height: 30px;
+    width: 60px;
+    margin-left: 20px;
+    border-radius: 3px;
+
+    margin-top: 0px;
+  }
+
+  .header-text {
+    color: white;
+    font-size: 11px;
+    display: inline-block;
+    font-weight: bolder;
+  }
+  .fas {
+    color: white;
+    font-size: 13px;
+    margin-right: 5px;
+    margin-left: 25px;
+  }
+  .header-btn {
+    background-color: red;
+    border: none;
+    height: 40px;
+    width: 80px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+  }
+
+  nav a p {
+    display: inline-block;
+    margin-top: 17px;
+    font-weight: bolder;
+    color: #5ab0c8;
+  }
+  .one {
+    color: #df4545;
+  }
+  .two {
+    color: #5ab0c8;
+  }
+  .nav-item a {
+    font-size: 12px;
+  }
+  ul {
+    margin-left: 250px;
+  }
+  .fourth-container {
+    background-color: #c0277c;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .child-div {
+    height: 50px;
+    width: 40%;
+  }
+  h1 {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+  }
+  .fifth-container {
+    background-color: darkgrey;
+  }
+  img {
+    border: 1px solid white;
+    shadow: 5px 10px black;
+    margin: 20px;
+  }
+  a.mobile-maniya {
+    color: #a759b4;
+    font-size: 12px;
+    text-decoration: none;
+  }
+  .product-header:hover {
+    opacity: 0.8;
+  }
+  .blog-src {
+    font-weight: bolder;
+    color: #7b7b7b;
+  }
+  a.blogg-src {
+    color: black;
+    text-decoration: none;
+  }
+  a.blogg-src:hover {
+    opacity: 0.8;
+  }
+  .pagee {
+    width: 100%;
+
+    margin-left: 90px;
+    margin-top: 60px;
+  }
+  input {
+    border: none;
+    border-bottom: 1px solid #272822;
+  }
+  input:focus {
+    border-bottom: 3px solid red;
+    width: 180px;
+    outline: none;
+  }
+  button {
+    background-color: crimson;
+    border: none;
+    margin: 3px;
+  }
+  button .fas {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .help-text {
+    margin-top: 60px;
+    font-weight: bolder;
+  }
+  a {
+    color: #274c7c;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  a:hover {
+    text-decoration: none;
+    color: crimson;
+  }
+  .div {
+    border-left: 3px solid red;
+    border-bottom: 2px dotted #a9a9a9;
+    margin-left: 10px;
+    margin-bottom: 30px;
+  }
+  .help-text {
+    font-size: 20px;
+  }
+  a.oneline-income {
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 7px;
+  }
+  footer {
+    height: 120px;
+    background-color: #272822;
+  }
+
+  .footer-div {
+    background-color: #272822;
+    height: 120px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: red;
+    margin-left: 0px;
+  }
+  .col-md-4 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .footer-div-2 {
+    justify-content: left;
+  }
+  .footer-div-2-2 {
+    margin-left: 70px;
+  }
+  .footer-div .footer-div-2 a {
+    color: white;
+
+    font-size: 12px;
+    font-weight: bolder;
+  }
+}
+.first-container {
+  height: 40px;
+  background-color: #363537;
+}
+.header-text {
+  color: white;
+  font-size: 9px;
+  display: inline-block;
+  font-weight: bolder;
+}
+.fas {
+  color: white;
+  font-size: 13px;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+.header-btn {
+  background-color: red;
+  border: none;
+  height: 40px;
+  width: 50px;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+.one {
+  color: #df4545;
+  display: inline-block;
+  float: left;
+}
+.two {
+  color: #5ab0c8;
+  display: inline-block;
+  float: left;
+}
+.fourth-container {
+  background-color: #c0277c;
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.child-div {
+  height: 50px;
+  width: 100%;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.pagee {
+  width: 100%;
+
+  margin-left: 60px;
+  margin-top: 60px;
+}
+
+img {
+  border: 1px solid white;
+  shadow: 5px 10px black;
+}
+a.mobile-maniya {
+  color: #a759b4;
+  font-size: 12px;
+  text-decoration: none;
+}
+.product-header:hover {
+  opacity: 0.8;
+}
+.blog-src {
+  font-weight: bolder;
+  color: #7b7b7b;
+}
+a.blogg-src {
+  color: black;
+  text-decoration: none;
+}
+a.blogg-src:hover {
+  opacity: 0.8;
+}
+input {
+  border: none;
+  border-bottom: 1px solid #272822;
+}
+input:focus {
+  border-bottom: 3px solid red;
+  width: 180px;
+  outline: none;
+}
+button {
+  background-color: crimson;
+  border: none;
+  margin: 3px;
+}
+button .fas {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.help-text {
+  margin-top: 60px;
+  font-weight: bolder;
+}
+a {
+  color: #274c7c;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: none;
+  color: crimson;
+}
+.div {
+  border-left: 3px solid red;
+  border-bottom: 2px dotted #a9a9a9;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+.help-text {
+  font-size: 20px;
+}
+a.oneline-income {
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 7px;
+}
+.div-1 {
+  margin-top: 40px;
+}
+.col-md-4 {
+  margin-top: 10px;
+}
+.footer-div {
+  text-align: center;
+}
+.footer-div-2 a {
+  color: white;
+}
+}
+/* md and sm devices (phones, 824px and down) */
+@media only screen and (max-width: 823px) {
+  .navbar{
+    text-align:center;
+  }
+  .first-container {
+    height: 40px;
+    background-color: #363537;
+  }
+  .header-text {
+    color: white;
+    font-size: 9px;
+    display: inline-block;
+    font-weight: bolder;
+  }
+  .fas {
+    color: white;
+    font-size: 13px;
+    margin-right: 5px;
+    margin-left: 10px;
+  }
+  .header-btn {
+    background-color: red;
+    border: none;
+    height: 40px;
+    width: 50px;
+    margin-left: 10px;
+    border-radius: 3px;
+  }
+  .one {
+    color: #df4545;
+    display: inline-block;
+    float: left;
+  }
+  .two {
+    color: #5ab0c8;
+    display: inline-block;
+    float: left;
+  }
+  .fourth-container {
+    background-color: #c0277c;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .child-div {
+    height: 50px;
+    width: 100%;
+  }
+  h1 {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+   .pagee {
+    width: 100%;
+    margin:0 auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:green; 
+   
+  } 
+  div.pages{
+    text-align:center;
+    background-color:green;
+    height:100px;
+    width:100%;
+  }
+
+  img {
+    border: 1px solid white;
+    shadow: 5px 10px black;
+  }
+  a.mobile-maniya {
+    color: #a759b4;
+    font-size: 12px;
+    text-decoration: none;
+  }
+  .product-header:hover {
+    opacity: 0.8;
+  }
+  .blog-src {
+    font-weight: bolder;
+    color: #7b7b7b;
+  }
+  a.blogg-src {
+    color: black;
+    text-decoration: none;
+  }
+  a.blogg-src:hover {
+    opacity: 0.8;
+  }
+  input {
+    border: none;
+    border-bottom: 1px solid #272822;
+  }
+  input:focus {
+    border-bottom: 3px solid red;
+    width: 180px;
+    outline: none;
+  }
+  button {
+    background-color: crimson;
+    border: none;
+    margin: 3px;
+  }
+  button .fas {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .help-text {
+    margin-top: 60px;
+    font-weight: bolder;
+  }
+  a {
+    color: #274c7c;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  a:hover {
+    text-decoration: none;
+    color: crimson;
+  }
+  .div {
+    border-left: 3px solid red;
+    border-bottom: 2px dotted #a9a9a9;
+    margin-left: 10px;
+    margin-bottom: 30px;
+  }
+  .help-text {
+    font-size: 20px;
+  }
+  a.oneline-income {
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 7px;
+  }
+  .div-1 {
+    margin-top: 40px;
+  }
+  .col-md-4 {
+    margin-top: 10px;
+  }
+  .footer-div {
+    text-align: center;
+  }
+  .footer-div-2 a {
+    color: white;
+  }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 568px) {
+  .navbar{
+    text-align:center;
+  }
+  .first-container {
+    height: 40px;
+    background-color: #363537;
+  }
+  .header-text {
+    color: white;
+    font-size: 9px;
+    display: inline-block;
+    font-weight: bolder;
+  }
+  .fas {
+    color: white;
+    font-size: 13px;
+    margin-right: 5px;
+    margin-left: 10px;
+  }
+  .header-btn {
+    background-color: red;
+    border: none;
+    height: 40px;
+    width: 50px;
+    margin-left: 10px;
+    border-radius: 3px;
+  }
+  .one {
+    color: #df4545;
+    display: inline-block;
+    float: left;
+  }
+  .two {
+    color: #5ab0c8;
+    display: inline-block;
+    float: left;
+  }
+  .fourth-container {
+    background-color: #c0277c;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .child-div {
+    height: 50px;
+    width: 100%;
+  }
+  h1 {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  .pagee {
+    width: 100%;
+
+    margin-left: 60px;
+    margin-top: 60px;
+  } 
+
+  img {
+    border: 1px solid white;
+    shadow: 5px 10px black;
+  }
+  a.mobile-maniya {
+    color: #a759b4;
+    font-size: 12px;
+    text-decoration: none;
+  }
+  .product-header:hover {
+    opacity: 0.8;
+  }
+  .blog-src {
+    font-weight: bolder;
+    color: #7b7b7b;
+  }
+  a.blogg-src {
+    color: black;
+    text-decoration: none;
+  }
+  a.blogg-src:hover {
+    opacity: 0.8;
+  }
+  input {
+    border: none;
+    border-bottom: 1px solid #272822;
+  }
+  input:focus {
+    border-bottom: 3px solid red;
+    width: 180px;
+    outline: none;
+  }
+  button {
+    background-color: crimson;
+    border: none;
+    margin: 3px;
+  }
+  button .fas {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .help-text {
+    margin-top: 60px;
+    font-weight: bolder;
+  }
+  a {
+    color: #274c7c;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  a:hover {
+    text-decoration: none;
+    color: crimson;
+  }
+  .div {
+    border-left: 3px solid red;
+    border-bottom: 2px dotted #a9a9a9;
+    margin-left: 10px;
+    margin-bottom: 30px;
+  }
+  .help-text {
+    font-size: 20px;
+  }
+  a.oneline-income {
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 7px;
+  }
+  .div-1 {
+    margin-top: 40px;
+  }
+  .col-md-4 {
+    margin-top: 10px;
+  }
+  .footer-div {
+    text-align: center;
+  }
+  .footer-div-2 a {
+    color: white;
+  }
+}
+
